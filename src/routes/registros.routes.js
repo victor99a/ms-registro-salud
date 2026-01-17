@@ -19,6 +19,7 @@ router.post('/', async (req, res) => {
         user_id: patientId,
         type: 'glucose',
         value_1: glucosa,
+        value_2: null,
         unit: 'mg/dL'
       },
       {
